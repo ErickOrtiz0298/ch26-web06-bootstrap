@@ -6,11 +6,17 @@
 .demo-content {
     padding: 15px;
     background: #dbdfe5;
-    border:2px solid black;
-    margin: 2px;
 }
 
 .bg-alt{
     background: #abb1b8;
 }
 
+.main-content{
+    min-height: 230px;
+}
+
+.sidebar-content{
+    min-height: 100px;
+    margin-bottom:30px;
+}
