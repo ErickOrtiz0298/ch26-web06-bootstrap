@@ -6,6 +6,8 @@
 .demo-content {
     padding: 15px;
     background: #dbdfe5;
+    border:2px solid black;
+    margin: 2px;
 }
 
 .bg-alt{
