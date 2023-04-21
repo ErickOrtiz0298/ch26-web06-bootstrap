@@ -129,20 +129,35 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-5 text-center">
-        <p id="name">Mi nombre</p>
+        <h3 id="name" class="text-color">Mi nombre</h3>
         <!-- <p onclick="changeColorToRed()">Cambia el color a rojo</p> -->
       </div>
     </div>
     <!--Botones cambia el color-->
     <div class="row">
       <div class="col">
-        <button onclick="changeColorToRed()" type="button" class="btn btn-danger">Rojo</button>
+        <button onclick="changeColorTo('red')" type="button" class="btn btn-danger">Rojo</button>
       </div>
       <div class="col">
-
+        <button onclick="changeColorTo('blue')" type="button" class="btn btn-primary">Azul</button>
       </div>
       <div class="col">
+        <button onclick="changeColorTo('green')" type="button" class="btn btn-success">Verde</button>
+      </div>
+    </div>
+  </div>
 
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col"><p class="text-color" onclick="changeColorParagraph('green',this)">Me cambiare a verde</p></div>
+      <div class="col"><p class="text-color" onclick="changeColorParagraph('blue',this)">Me cambiare a azul</p></div>
+      <div class="col"><p class="text-color" onclick="changeColorParagraph('yellow',this)">Me cambiare a amarillo</p></div>
+    </div>
+    <div class="row">
+      <div class="col-5">
+        <button onclick="resetColors()" type="button" class="btn btn-dark">Reset</button>
       </div>
     </div>
   </div>
