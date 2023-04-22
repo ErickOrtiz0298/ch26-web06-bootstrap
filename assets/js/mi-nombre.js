@@ -7,12 +7,12 @@ function changeGretting(){
     //console.log(grettingReference.innerHTML);
 
     //TODO cambiar el saludo
-    grettingReference.innerHTML = "Hola " + clientName + ", te lo dije no?";
+    grettingReference.innerHTML = "Hola " + clientName;
 
 }
 
 function getNameOfClient(){
-    const clientName = prompt("Escribe tu nombre");
+    const clientName = prompt("¿Cual es tu nombre?");
     return clientName;
 }
 
